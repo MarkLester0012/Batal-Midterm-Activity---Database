@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/landing_page_background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="393dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/product_manager_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/productImageButton"
+        android:layout_width="121dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="88dp"
+        android:backgroundTint="#00D100"
+        android:drawableTop="@drawable/box"
+        android:foregroundTint="#000000"
+        android:text="PRODUCT LIST"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <Button
+        android:id="@+id/exitButtonImageButton"
+        android:layout_width="121dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="296dp"
+        android:backgroundTint="#FF0000"
+        android:drawableTop="@drawable/exit_logo"
+        android:foregroundTint="#000000"
+        android:text="CLOSE APP"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
